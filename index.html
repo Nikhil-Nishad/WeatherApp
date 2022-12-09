@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="shortcut icon" href="/fav_icon.png" type="image/x-icon">
+    <!-- Font-Awesome CSS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="inputbox">
+            <input id="city" type="search" placeholder="Enter City">
+            <button class="btn" type="submit" id="submit" on>Search</button>
+        </div>
+
+        <div class="container" id="container">
+            <div class="top">
+                <div class="location">
+                    <p id="cityName">Delhi</p>
+                </div>
+                <div class="temp">
+                    <h1><span id="temp"></span><span> &#8451;</span>
+
+                    </h1>
+                </div>
+                <!-- <div class="description">
+                    <p>Clouds</p>
+                </div> -->
+            </div>
+            <div class="icon"><i class="fa-solid fa-cloud-sun-rain" id="weather-icon"></i></div>
+
+            <div class="bottom">
+                <div class="feels">
+                    <p class="bold"><span id="feels_like">60</span><span> &#8451;</span>
+                    </p>
+                    <p>Feels Like</p>
+                </div>
+                <div class="humidity">
+                    <p class="bold"><span id="humidity">20</span>%</p>
+                    <p>humidity</p>
+                </div>
+                <div class="wind">
+                    <p class="bold"><span id="wind_speed">12</span> kmph</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Font-Awesome Js Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
