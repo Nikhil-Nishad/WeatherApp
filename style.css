@@ -134,3 +134,10 @@ button {
 .bold {
     font-weight: 700px;
 }
+
+@media (max-width:450px) {
+
+    html {
+        font-size: 65%;
+    }
+}
