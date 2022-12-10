@@ -140,4 +140,7 @@ button {
     html {
         font-size: 65%;
     }
+    #weather-icon {
+        height: 20rem;
+    }
 }
